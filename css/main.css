@@ -4,17 +4,32 @@ html, body {
   font-family: 'Lato', sans-serif;
   background-color: #eee; }
 
+/* Constrain content to 980 and center */
+.constrain {
+  max-width: 980px;
+  margin: auto;
+}
+
 /* Header */
 nav {
-  background-color: black;
+  background-color: #991000;
   color: white;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 .title { margin: 1rem; }
 .page-list {
   font-size: 1rem;
   padding-top: .25rem;
   margin-right: 1rem; }
+
+/* Sub Header */
+.subnav {
+  background-color: #750B00;
+  height: 45px; }
+.sub-page-list {
+  font-size: .8rem;
+  margin-left: 1rem;
+  color: white;
+}
 
 /* Hero */
 .hero {
@@ -38,7 +53,7 @@ nav {
   font-weight: bold;
   text-align: center;
   font-size: 1.25rem;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #750B00;
 }
 .content .sub-header {
   font-style: italic;
@@ -51,7 +66,7 @@ nav {
   margin-top: 2.5rem;
   padding-top: 1rem;
   color: #eee;
-  background-color: #ccc;
+  background-color: #02505E;
   min-height: 16  0px;
 }
 .footer-last {
