@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Base Template</title>
-  <meta name="description" content="Base HTML Template for future use">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>Base Template</title>
+  <meta name="description" content="Base HTML Template for future use">
   <!-- Place favicon.ico in the root directory -->
   <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 
-  <link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,300,700' rel='stylesheet' type='text/css'>
   <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
@@ -22,123 +23,125 @@
   <![endif]-->
 
   <!-- Navigation bar -->
-  <nav class="clearfix">
-    <div class="constrain">
-      <section class="left">
-        <div class="title">Balls</div>
-      </section>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Base Template</a>
+      </div>
 
-      <ul class="list-reset right page-list">
-        <li class="inline-block mr1">Half-Smoke</li>
-        <li class="inline-block mr1">Kielbasa</li>
-        <li class="inline-block mr1">Bologna</li>
-        <li class="inline-block mr1">Prosciutto</li>
-      </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
     </div>
   </nav>
 
-  <!-- Sub navigation -->
-  <section class="clearfix subnav">
-    <div class="constrain">
-      <ul class="list-reset left sub-page-list">
-        <li class="inline-block mr1">Half-Smoke</li>
-        <li class="inline-block mr1">Kielbasa</li>
-        <li class="inline-block mr1">Bologna</li>
-        <li class="inline-block mr1">Prosciutto</li>
-      </ul>
-    </div>
-  </section>
-
   <!-- Main Content -->
-  <div class="constrain">
+  <div class="container">
 
     <!-- Call to Action -->
-    <section class="hero clearfix">
-      <div class="center">
-        <img src="http://placehold.it/980x450">
-      </div>
+    <section class="hero">
+      <div class="center"><img src="http://placehold.it/980x450"></div>
     </section>
 
-    <!-- Classic Content -->
-    <div class="content">
-      <div class="row clearfix mxn2">
-        <div class="sm-col sm-col-12 md-col-4 px2">
-          <div class="header">Header</div>
-          <img src="http://placehold.it/300x200">
-          Bresaola short ribs alcatra, beef turkey drumstick prosciutto pork belly rump cupim shank tail. Flank bresaola chuck ham ham hock tenderloin tongue frankfurter pig boudin turkey doner. Pork shoulder pork loin, sausage bacon bresaola pig beef ribs meatball short loin andouille. Pork loin spare ribs chicken shankle.
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-4 px2">
-          <div class="header">Header</div>
-          <img src="http://placehold.it/300x200">
-          Bresaola short ribs alcatra, beef turkey drumstick prosciutto pork belly rump cupim shank tail. Flank bresaola chuck ham ham hock tenderloin tongue frankfurter pig boudin turkey doner. Pork shoulder pork loin, sausage bacon bresaola pig beef ribs meatball short loin andouille. Pork loin spare ribs chicken shankle.
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-4 px2">
-          <div class="header">Header</div>
-          <img src="http://placehold.it/300x200">
-          Bresaola short ribs alcatra, beef turkey drumstick prosciutto pork belly rump cupim shank tail. Flank bresaola chuck ham ham hock tenderloin tongue frankfurter pig boudin turkey doner. Pork shoulder pork loin, sausage bacon bresaola pig beef ribs meatball short loin andouille. Pork loin spare ribs chicken shankle.
-        </div>
+    <!-- One Third Layout -->
+    <div class="content row">
+      <div class="col-xs-12 col-md-4">
+        <div class="header">Header</div>
+        <img class="img-rounded" src="http://placehold.it/300x200">
+        Bresaola short ribs alcatra, beef turkey drumstick prosciutto pork belly rump cupim shank tail. Flank bresaola chuck ham ham hock tenderloin tongue frankfurter pig boudin turkey doner. Pork shoulder pork loin, sausage bacon bresaola pig beef ribs meatball short loin andouille. Pork loin spare ribs chicken shankle.
       </div>
 
-      <div class="row clearfix mxn2">
-        <div class="sm-col sm-col-12 md-col-6 px2">
-          <img src="http://placehold.it/445x350">
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-6 px2">
-          <img src="http://placehold.it/445x350">
-        </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="header">Header</div>
+        <img class="img-rounded" src="http://placehold.it/300x200">
+        Bresaola short ribs alcatra, beef turkey drumstick prosciutto pork belly rump cupim shank tail. Flank bresaola chuck ham ham hock tenderloin tongue frankfurter pig boudin turkey doner. Pork shoulder pork loin, sausage bacon bresaola pig beef ribs meatball short loin andouille. Pork loin spare ribs chicken shankle.
       </div>
 
-      <div class="row clearfix mxn1">
-        <div class="sm-col sm-col-12 md-col-3 px1">
-          <div class="sub-header">Sub Header</div>
-          <img src="http://placehold.it/225x150">
-          Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-3 px1">
-          <div class="sub-header">Sub Header</div>
-          <img src="http://placehold.it/225x150">
-          Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-3 px1">
-          <div class="sub-header">Sub Header</div>
-          <img src="http://placehold.it/225x150">
-          Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
-        </div>
-
-        <div class="sm-col sm-col-12 md-col-3 px1">
-          <div class="sub-header">Sub Header</div>
-          <img src="http://placehold.it/225x150">
-          Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
-        </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="header">Header</div>
+        <img class="img-rounded" src="http://placehold.it/300x200">
+        Bresaola short ribs alcatra, beef turkey drumstick prosciutto pork belly rump cupim shank tail. Flank bresaola chuck ham ham hock tenderloin tongue frankfurter pig boudin turkey doner. Pork shoulder pork loin, sausage bacon bresaola pig beef ribs meatball short loin andouille. Pork loin spare ribs chicken shankle.
       </div>
     </div>
 
-    <!-- Classic Content -->
+    <!-- One Half Layout -->
+    <div class="content row">
+      <div class="col-xs-12 col-md-6 center">
+        <img class="img-thumbnail img-responsive" src="http://placehold.it/445x350">
+      </div>
+
+      <div class="show-mobile img-spacer"></div>
+
+      <div class="col-xs-12 col-md-6 center">
+        <img class="img-thumbnail img-responsive" src="http://placehold.it/445x350">
+      </div>
+    </div>
+
+    <!-- One Fourth Layout -->
+    <div class="content row">
+      <div class="col-xs-12 col-md-3">
+        <div class="sub-header">Sub Header</div>
+        <img class="img-rounded img-reponsive" src="http://placehold.it/225x150">
+        Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
+      </div>
+
+      <div class="col-xs-12 col-md-3">
+        <div class="sub-header">Sub Header</div>
+        <img class="img-rounded img-reponsive" src="http://placehold.it/225x150">
+        Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
+      </div>
+
+      <div class="col-xs-12 col-md-3">
+        <div class="sub-header">Sub Header</div>
+        <img class="img-rounded img-reponsive" src="http://placehold.it/225x150">
+        Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
+      </div>
+
+      <div class="col-xs-12 col-md-3">
+        <div class="sub-header">Sub Header</div>
+        <img class="img-rounded img-reponsive" src="http://placehold.it/225x150">
+        Corned beef ham alcatra pork loin chuck, beef ribs shankle. Chicken doner short loin, ribeye drumstick ham pancetta biltong turducken jowl filet mignon fatback bresaola t-bone. Porchetta kielbasa spare ribs, venison andouille turducken t-bone. Swine pork chop alcatra leberkas.
+      </div>
+    </div>
+
+    <!-- 3/4 split content -->
     <div class="content">
-      <div class="row clearfix mxn2">
-        <div class="sm-col sm-col-12 md-col-8 px2">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 three-four-split">
           <span class="bold">Attention</span><br />
           Bacon ipsum dolor amet strip steak tail frankfurter turducken swine bresaola t-bone. Ribeye boudin biltong, short ribs cupim turkey sausage. Pork belly short loin sausage shankle landjaeger bresaola ham hock ball tip, chuck andouille. Bresaola rump brisket sausage boudin meatball flank picanha landjaeger salami meatloaf porchetta pork tail hamburger. Ham hock fatback shoulder jowl pork. Tongue pig alcatra, landjaeger salami ribeye drumstick picanha porchetta. Turducken shankle capicola jerky.
         </div>
 
-        <div class="sm-col sm-col-12 md-col-4 px2">
+        <div class="col-xs-12 col-md-4 three-four-split">
           <span class="bold">Attention</span><br />
           Bacon ipsum dolor amet strip steak tail frankfurter turducken swine bresaola t-bone. Ribeye boudin biltong, short ribs cupim turkey sausage. Pork belly short loin sausage shankle landjaeger bresaola ham hock ball tip, chuck andouille.
         </div>
       </div>
+    </div>
 
-      <div class="row clearfix mxn2">
-        <div class="sm-col sm-col-12 md-col-8 px2">
-          <img src="http://placehold.it/600x130">
+  <!-- 3/4 split image content -->
+    <div class="content">
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          <img class="img-rounded img-responsive" src="http://placehold.it/600x130">
         </div>
 
-        <div class="sm-col sm-col-12 md-col-4 px2">
-          <span class="bold">Attention</span><br />
+        <div class="col-xs-12 col-md-4">
+          <span class="bold hide-mobile">Attention</span><br />
           Bacon ipsum dolor amet strip steak tail frankfurter turducken swine bresaola t-bone. Ribeye boudin biltong, short ribs cupim turkey sausage. Pork belly short loin sausage shankle landjaeger bresaola ham hock ball tip, chuck andouille.
         </div>
       </div>
@@ -147,13 +150,12 @@
   </div>
 
   <!-- Footer Area -->
-  <div class="footer clearfix">
-    <div class="constrain">
+  <div class="container-fluid footer">
+    <div class="row">
       <!-- 1st Column -->
-      <div class="sm-col sm-col-12 md-col-3 px2">
-        About Our Products
+      <div class="col-xs-12 col-md-3">
+        <div class="footer-header">About Our Products</div>
         <ul>
-          <li>Bacon ipsum dolor amet strip</li>
           <li>Bacon ipsum dolor amet strip</li>
           <li>Bacon ipsum dolor amet strip</li>
           <li>Bacon ipsum dolor amet strip</li>
@@ -162,10 +164,9 @@
       </div>
 
       <!-- 2nd Column -->
-      <div class="sm-col sm-col-12 md-col-3 px2">
-        About Our Company
+      <div class="col-xs-12 col-md-3">
+        <div class="footer-header">About Our Company</div>
         <ul>
-          <li>landjaeger bresaola ham hock ball</li>
           <li>landjaeger bresaola ham hock ball</li>
           <li>landjaeger bresaola ham hock ball</li>
           <li>landjaeger bresaola ham hock ball</li>
@@ -174,10 +175,9 @@
       </div>
 
       <!-- 3rd Column -->
-      <div class="sm-col sm-col-12 md-col-3 px2">
-        Help
+      <div class="col-xs-12 col-md-3">
+        <div class="footer-header">Help</div>
         <ul>
-          <li>Pork loin short loin brisket turkey</li>
           <li>Pork loin short loin brisket turkey</li>
           <li>Pork loin short loin brisket turkey</li>
           <li>Pork loin short loin brisket turkey</li>
@@ -186,30 +186,22 @@
       </div>
 
       <!-- 4th Column -->
-      <div class="sm-col sm-col-12 md-col-3 px2">
-        Contact Us
+      <div class="col-xs-12 col-md-3">
+        <div class="footer-header">Contact Us</div>
         <ul>
           <li>Corned beef ham alcatra pork loin</li>
           <li>Corned beef ham alcatra pork loin</li>
           <li>Corned beef ham alcatra pork loin</li>
           <li>Corned beef ham alcatra pork loin</li>
-          <li>Corned beef ham alcatra pork loin</li>
-        </ul>
-      </div>
-
-      <div class="footer-last sm-col sm-col-12">
-        <ul class="center list-reset page-list">
-          <li class="inline-block mr1">Half-Smoke</li>
-          <li class="inline-block mr1">Kielbasa</li>
-          <li class="inline-block mr1">Bologna</li>
-          <li class="inline-block mr1">Copyright 2016</li>
         </ul>
       </div>
     </div>
+
+    <div class="row footer-copyright">Copyright 2016</div>
   </div>
 
-  <!-- <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script> -->
-  <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.1.min.js"><\/script>')</script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <!-- <script src="js/main.js"></script> -->
 
 
