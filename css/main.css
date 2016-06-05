@@ -58,6 +58,7 @@ html, body {
   color: #eee;
   background-color: #02505E;
   min-height: 16  0px;
+  width: 100%;
 }
 .footer-header {
   border-bottom: 1px solid white;
